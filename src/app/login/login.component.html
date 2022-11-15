@@ -1,0 +1,5 @@
+<form *ngIf="form" [formGroup]="form">
+  <input type="input" formControlName="username" placeholder="username">
+  <input type="password" formControlName="password" placeholder="password">
+  <button type="button" (click)="onSubmit()">Submit</button>
+</form>
